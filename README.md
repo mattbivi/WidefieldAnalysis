@@ -11,9 +11,9 @@ Developed in python 3.10 using:
 - pandas
 
 for those on unix systems, you can install via 
-´´´
+```
 pip3 install numpy OpenCV==4.5.5.64 scipy tifffile matplotlib pandas
-´´´
+```
 ## Basic pipeline
 The stack is designed to be modular, thus we have separated the initial processing, evoked average and visualisation scripts.
 

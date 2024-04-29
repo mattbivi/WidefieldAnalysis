@@ -28,4 +28,18 @@ This proceeds in the following manner:
 - Global signal regression
 - Export as tiff for further processing
 
-  ##
+### Evoked Average
+This script is designed to collate and average the desired experiments placed in a folder to produce a single evoked average of the neurological behaviour.
+
+### ROI fitting
+We have written a short script to help fitting the ROIs (Allen Institute Widefield Mouse Brain atlas in folder). It produces a handy GUI that allows the user to quickly fit the brain scan to the desired atlas.
+If editing the atlas is required, one can also open them in Fiji or ImageJ.
+
+### ROI valGrabber
+Run after the ROI fitting has been done. This generates a csv file containing the average intensity in the ROI fitted in the ROI fitting.
+From here, one can either reimport this data into another script or excel to start using the data.
+
+## Further Information
+Feel free to forward any questions about the script to mattbivi@gmail.com or annsofie.bjerre@gmail.com for more neuroscience oriented questions.
+
+
